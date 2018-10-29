@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "Kitkat_Desert",
+      "price": "60",
+      "id": 3
+    },
+    {
+      "name": "Ferreo Rocher",
+      "price": "105",
+      "id": 4
+    },
+    {
+      "name": "Eclairs",
+      "price": "100",
+      "id": 5
+    },
+    {
+      "name": "colgate",
+      "price": "50",
+      "id": 6
+    }
+  ]
+}

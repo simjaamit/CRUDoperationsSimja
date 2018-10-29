@@ -1,0 +1,19 @@
+
+<a routerLink="/product">Do you wanna add Products?</a>
+
+<h1>Products</h1>
+
+<table >
+  <th>Id</th>
+  <th>Name</th>
+  <th>Price</th>
+  <th></th>
+  <th></th>
+  <tr *ngFor="let product of products">
+      <td>{{product.id}}</td>
+      <td>{{product.name}}</td>
+      <td>{{product.price}}</td>
+      <td [routerLink] = "['/updateProduct', product.id]"><a>UPDATE</a></td>
+      <td (click) = "deleteProduct(product.id)"><a>DELETE</a></td>
+  </tr>
+</table>
